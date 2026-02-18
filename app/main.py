@@ -2,7 +2,7 @@ from typing import Any
 from app.errors import VaccineError, NotWearingMaskError
 
 
-def go_to_cafe(friends: list, cafe: Any) -> Any:
+def go_to_cafe(friends: list, cafe: None) -> Any:
     masks_to_buy = 0
     for friend in friends:
         try:
